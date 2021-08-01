@@ -84,3 +84,10 @@ example data = {
     }
   }
 }
+
+# To Know About Meeting After sending the above post request
+
+open on browser
+
+http://127.0.0.1:8000/show_meetings
+
