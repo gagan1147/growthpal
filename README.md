@@ -1,1 +1,1 @@
-# growthpal
+# GrowthPal Assingment
