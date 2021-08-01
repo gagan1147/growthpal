@@ -62,6 +62,15 @@ def api_create_meetings(request):
         #     per.show_meetings()
         return JsonResponse({'success':'pass'})
     return JsonResponse({'success':'fail'})
+print(person_arr)
+
+def show_meetings(request):
+    dict1 = {}
+    for per in person_arr:
+        dict1.update(per.get_remainder())
+    
+    return JsonResponse(dict1)
+
 
 def index(request):
-    return HttpResponse("HEllo WOrld")
+    return HttpResponse("Hello World")
